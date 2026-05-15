@@ -9,8 +9,7 @@ from openai import RateLimitError, APIError
 # KEYS
 # ======================
 TELEGRAM_TOKEN = "8862764456:AAEHchsavPHdXP2ucd0NSTuvnT3VZScgMjA"
-OPENAI_API_KEY = "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"
-
+OPENAI_API_KEY = "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"
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 client = OpenAI(api_key=OPENAI_API_KEY)
 
